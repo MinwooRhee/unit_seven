@@ -1,7 +1,7 @@
 
 alphabet = "abcdefghijklmnopqrstuvwxyz"
 
-phrase = "Python is fun"
+phrase = input("What phrase would you like to encode?: ")
 
 phrase = phrase.lower()
 
@@ -9,7 +9,7 @@ phrase = phrase.replace(" ", "")
 
 print(phrase)
 
-key = "apple"
+key = input("What key would you like to use?: ")
 
 key_count = 0
 
