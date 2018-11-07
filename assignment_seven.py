@@ -1,6 +1,14 @@
+# Minwoo Rhee
+# 2018 11 7
+# assignment_seven
+# encode and decode a phrase with a keyword
 
 
 def encode():
+    """
+    encode a phrase with a keyword
+    :return: None
+    """
     alphabet = "abcdefghijklmnopqrstuvwxyz"
 
     phrase = input("What phrase would you like to encode?: ")
@@ -27,6 +35,10 @@ def encode():
 
 
 def decode():
+    """
+    decode a phrase with a keyword
+    :return: None
+    """
     alphabet = "abcdefghijklmnopqrstuvwxyz"
 
     code = input("What code would you like to decode?: ")
